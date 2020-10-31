@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+  <head>
+    <title>Photographer Blog</title>
+    <meta name="keywords" content="" />
+	<meta name="description" content="" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+    <link href="css/templatemo_style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <script src="js/jquery-1.10.2.min.js"></script> 
+	<script src="js/jquery.lightbox.js"></script>
+	<script src="js/templatemo_custom.js"></script>
+    <script>
+    function showhide()
+    {
+    	var div = document.getElementById("newpost");
+		if (div.style.display !== "none")
+		{
+			div.style.display = "none";
+		}
+		else {
+			div.style.display = "block";
+		}
+    }
+  	</script>
+
+  </head>
+  <body>
+  	<div class="site-header">
+		<div class="main-navigation">
+			<div class="responsive_menu">
+				<ul>
+					<li><a class="show-1 templatemo_home" href="#">Photos</a></li>
+					<li><a class="show-2 templatemo_page2" href="#">Studios</a></li>
+					<li><a class="show-5 templatemo_page5" href="#">Contact</a></li>
+          <li><a class="show-3 templatemo_page3" href="index.html">Login/Register</a></li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="row templatemo_gallerygap">
+					<div class="col-md-12 responsive-menu">
+						<a href="#" class="menu-toggle-btn">
+				            <i class="fa fa-bars"></i>
+				        </a>
+					</div> <!-- /.col-md-12 -->
+                    <div class="col-md-3 col-sm-12">
+                    	<a href="#"><img src="images/templatemo_logo3.jpg" alt="Polygon HTML5 Template"></a>
+                    </div>
+					<div class="col-md-9 main_menu">
+						<ul>
+							<li><a class="show-1 templatemo_home" href="#">
+                            	<span class="fa fa-camera"></span>
+                                Photos</a></li>
+							<li><a class="show-2 templatemo_page2" href="#">
+                            	<span class="fa fa-users"></span>
+                          		  Studios</a></li>
+							
+							<li><a class="show-5 templatemo_page5" href="#">
+                            	<span class="fa fa-envelope"></span>
+                                Contact</a></li>
+              <li><a class="show-3 templatemo_page3" href="index.html">
+                              <span class="fa fa-cogs"></span>
+                              Login/Register</a></li>
+						</ul>
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div> <!-- /.main-navigation -->
+	</div> <!-- /.site-header -->
+  <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w780">
+            <div class="card card-3">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Registration Info</h2>
+                    <form method="POST">
+                        <div class="input-group">
+                            <input class="input--style-3" type="text" placeholder="Name" name="name">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-3 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
+                            <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                        </div>
+                        <div class="input-group">
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="gender">
+                                    <option disabled="disabled" selected="selected">Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-3" type="email" placeholder="Email" name="email">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-3" type="text" placeholder="Phone" name="phone">
+                        </div>
+                        <div class="p-t-10">
+                            <button class="btn btn--pill btn--green" type="submit"><a href="Admin.html" class="btn"> Submit</a></button>
+                          
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-container">
+    <!-- gallery start -->
+    <div class="content homepage" id="menu-1">
+    <div class="container">
+	    <div class="row templatemorow">
+    		<div class="hex col-sm-6">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/1.png);">
+             	 	<div class="overlay">
+						<a href="images/gallery/1.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/2.png);">
+              	<div class="overlay">
+						<a href="images/gallery/2.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top2">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/3.png);">
+              	<div class="overlay">
+						<a href="images/gallery/3.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/4.png);">
+              	<div class="overlay">
+						<a href="images/gallery/4.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/5.png);">
+              		<div class="overlay">
+						<a href="images/gallery/5.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  	     <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/6.png);">
+              		<div class="overlay">
+						<a href="images/gallery/6.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/7.png);">
+              		<div class="overlay">
+						<a href="images/gallery/7.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/8.png);">
+              		<div class="overlay">
+						<a href="images/gallery/8.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/9.png);">
+              		<div class="overlay">
+						<a href="images/gallery/9.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    	</div>
+	</div>
+    <div  id="newpost" style="display:none;" class="container answer_list templatemo_gallerytop">
+	    <div class="row templatemorow">
+    		<div class="hex col-sm-6">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/10.png);">
+             	 	<div class="overlay">
+						<a href="images/gallery/10.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/11.png);">
+              	<div class="overlay">
+						<a href="images/gallery/11.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top2">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/12.png);">
+              	<div class="overlay">
+						<a href="images/gallery/12.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/13.png);">
+              	<div class="overlay">
+						<a href="images/gallery/13.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hex col-sm-6  templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/14.png);">
+              		<div class="overlay">
+						<a href="images/gallery/14.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  	     <div class="hex col-sm-6 hex-offset templatemo-hex-top1 templatemo-hex-top2">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/15.png);">
+              		<div class="overlay">
+						<a href="images/gallery/15.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+     <div class="hex col-sm-6 templatemo-hex-top1 templatemo-hex-top3">
+    	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/16.png);">
+              		<div class="overlay">
+						<a href="images/gallery/16.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top3">
+      	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/17.png);">
+              		<div class="overlay">
+						<a href="images/gallery/17.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hex col-sm-6 templatemo-hex-top1  templatemo-hex-top2">
+      	<div>
+          <div class="hexagon hexagon2 gallery-item">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2" style="background-image: url(images/gallery/18.png);">
+              		<div class="overlay">
+						<a href="images/gallery/18.png" data-rel="lightbox" class="fa fa-expand"></a>
+					</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    	</div>
+	</div>
+    <div class="container">
+    	<div class="row">
+        	<div class="templatemo_loadmore">
+            
+			 <button class="gallery_more" id="button" onClick="showhide()">Load More</button>
+
+                    </div>
+
+        </div>
+
+    </div>
+    </div>
+
+      <!-- gallery end -->
+    <!-- team start -->
+    <div class="content team" id="menu-2">
+     <div class="templatemo_ourteam">
+     		<div class="container templatemo_hexteam">
+            	<div class="row">
+                	<div class="col-md-3 col-sm-4">
+                        	 
+                               
+                                <video controls="" width="320" height="240" controls autoplay="">
+    <source src="video/sam.mp4" />
+    <source src="video/sam.webm"/>
+    <source src="video/sam.ogg" />
+  </video>
+                                
+                             
+                          
+  			       </div>
+                    <div class="col-md-3 col-sm-8 templatemo_servicetxt" >
+                    	<h2>Sam Studio</h2>
+                        <p>There are more breathtaking videos and Photos Contact us</p>
+                    </div>
+                    <div class="templatemo_servicecol2">
+                    <div class="col-md-3 col-sm-4">
+                        	
+                                <video controls="" width="320" height="240" controls autoplay="">
+    <source src="video/Anjelo Pictures2.mp4" />
+    <source src="video/Anjelo Pictures2.webm"/>
+    <source src="video/Anjelo Pictures2.ogg" />
+  </video>
+  			       </div>
+                    <div class="col-md-3 col-sm-8 templatemo_servicetxt">
+                    	<h2>Anjelo Pictures</h2>
+                        <p>Please take a look at  Producing Beautiful pictures and video for your unforgettable events & also delivering in every side of our Country. For more details visit <a rel="nofollow" href="anjelopictures.com">anjelopictures.com</a></p>
+                    </div>
+                    </div>
+               </div>
+            </div>
+           
+            <div class="container templatemo_hexteam s_top">
+            	<div class="row">
+                	<div class="col-md-3 col-sm-4">
+                        	
+                                <video controls="" width="320" height="240" controls autoplay="">
+    <source src="video/zola.mp4" />
+    <source src="video/zola.webm"/>
+    <source src="video/zola.ogg" />
+  </video>
+  			       </div>
+                    <div class="col-md-3 col-sm-8 templatemo_servicetxt" >
+                    	<h2>Zola studio</h2>
+                        <p>Photo Zola was founded in 2000 by photorapher Zelalem Meteku. It has since grown into an internationally renowned photo studiovvideo studio. live-edge cardigan pork belly selfies church-key. Artisan four loko thundercats, subway tile yr butcher kinfolk. You probably haven't heard of them humblebrag hella yuccie raw denim authentic. <a rel="nofollow" href="www.photozola.com">www.photozola.com</a></p>
+                    </div>
+                    <div class="templatemo_servicecol2">
+                    <div class="col-md-3 col-sm-4">
+                     
+                                <video controls="" width="320" height="240" controls autoplay="">
+    <source src="video/video.mp4" />
+    <source src="video/video.webm"/>
+    <source src="video/video.ogg" />
+  </video>   	
+  			       </div>
+                    <div class="col-md-3 col-sm-8 templatemo_servicetxt">
+                    	<h2>Ethio-Girum Photo</h2>
+                        <p>Please take a look at  Producing Beautiful pictures and video for your unforgettable events & also delivering in every side of our Country. For more details visit <a rel="nofollow" href="m.youtube.com/channel/UC3iWRQ5-qTWjwVCnnIL22qQ">m.youtube.com/channel/UC3iWRQ5-qTWjwVCnnIL22qQ</a></p>
+                    </div>
+                    </div>
+               </div>
+            </div>
+            
+     </div>
+     </div>
+    <!--team end-->
+    <div class="clear"></div>
+    <!-- service start -->
+    <div class="content services" id="menu-3">
+    <div class="container">
+    	<div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w780">
+            <div class="card card-3">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                     <h2>LOGIN</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <button class="btn btn--pill btn--green" type="submit"><a href="Admin.html" class="btn"> LOG IN</a></button>     
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <a href="#"> Forgot Password</a> <br><br> 
+        <p>click on create account button below if you don't have an account</p>
+         <a  href="Signup.html"><h1>Create Account</h1></a>
+    </form>     
+</div>    
+                       
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- service end -->
+    <!-- contact start -->
+    <div class="content contact" id="menu-5">
+    <div class="container">
+     	<div class="row">
+        	<div class="col-md-4 col-sm-12">
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.832455398442!2d38.795109014276164!3d8.987560142112523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b84e71c6e2d21%3A0xe17e80792c5276f4!2sBole%20Homes%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1604102767291!5m2!1sen!2set" width="320" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            <div class="col-md-3 col-sm-12 leftalign">
+            	<div class="templatemo_contacttitle">Contact Information</div>
+                <div class="clear"></div>
+                <p>Contact us for promotion Enquiry.</p>
+                <div class="templatemo_address">
+                	<ul>
+                	<li class="left fa fa-map-marker"></li>
+                    <li class="right">Bole,AddisAbaba <br>Ethiopia</li>
+                    <li class="clear"></li>
+                    <li class="left fa fa-phone"></li>
+                    <li class="right">+251-913-77</li>
+                    <li class="clear"></li>
+                    <li class="left fa fa-envelope"></li>
+                    <li class="right">lidyataye0@Gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+            	<form role="form">
+              	<div class="templatemo_form">
+                	<input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name" maxlength="40">
+              	</div>
+              	<div class="templatemo_form">
+                	<input name="email" type="text" class="form-control" id="email" placeholder="Your Email" maxlength="40">
+              	</div>
+               	<div class="templatemo_form">
+                	<input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" maxlength="40">
+              	</div>
+              	<div class="templatemo_form">
+	            	<textarea name="message" rows="10" class="form-control" id="message" placeholder="Message"></textarea>
+              	</div>
+              	<div class="templatemo_form"><button type="button" class="btn btn-primary">Send Message</button></div>
+            </form>
+            </div>
+        </div>
+    	
+    </div>
+    </div>
+    </div>
+    <!-- contact end -->
+	<!-- footer start -->
+    <div class="templatemo_footer">
+    	<div class="container">
+    	<div class="row">
+        	<div class="col-md-9 col-sm-12">
+            	<span>Copyright &copy; 2020 Lidya Yilma | Design: Lidya Yilma</span>
+            </div>
+            <div class="col-md-3 col-sm-12 templatemo_rfooter">
+            	  <a href="https://www.facebook.com/lidya.jesus.7/">
+                 	<div class="hex_footer">
+					<span class="fa fa-facebook"></span>
+					</div>
+                  </a>
+                  <a href="https://twitter.com/YilmaLidya">
+                    <div class="hex_footer">
+					 <span class="fa fa-twitter"></span>
+					</div>
+                    </a>
+                  <a href="https://www.linkedin.com/in/lidya-yilma-86a72570/">
+                 	<div class="hex_footer">
+					 <span class="fa fa-linkedin"></span>
+					</div>
+                 </a>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- footer end -->    
+	<script>
+	$('.gallery_more').click(function(){
+		var $this = $(this);
+		$this.toggleClass('gallery_more');
+		if($this.hasClass('gallery_more')){
+			$this.text('Load More');			
+		} else {
+			$this.text('Load Less');
+		}
+	});
+    </script>
+
+  </body>
+</html>
